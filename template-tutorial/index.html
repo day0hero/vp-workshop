@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Welcome to Template Tutorial :: Template Tutorial</title>
+    <title>Welcome to the Validated Patterns Workshop :: Template Tutorial</title>
     <link rel="canonical" href="https://redhat-scholars.github.io/course-template/template-tutorial/index.html">
-    <link rel="next" href="01-setup.html">
+    <link rel="next" href="#setup.adoc">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -52,25 +52,52 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="01-setup.html">1. Setup</a>
+    <span class="nav-text">Requirements</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="01-setup.html#prerequisite">Prerequisites</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="01-setup.html#minikube">Setup Minikube</a>
+    <a class="nav-link" href="#setup.adoc">Setup</a>
   </li>
 </ul>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="02-deploy.html">2. Deploy Service</a>
+    <span class="nav-text">Day 1</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="02-deploy.html#package">Build Service</a>
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="#day1-am.adoc">Morning</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="#day1-git-funds.adoc">Git Fundamentals</a>
+  </li>
+</ul>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="02-deploy.html#deploy">Deploy Dervice</a>
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="#day1-pm.adoc">AfterNoon</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="#day1-helm-charts.adoc">Helm Charts</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Day 2</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="#day2-am.adoc">Morning</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="#day2-gitops">GitOps</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#day2-pm.adoc">Afternoon</a>
   </li>
 </ul>
   </li>
@@ -89,48 +116,99 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Template Tutorial</a></li>
-    <li><a href="index.html">Welcome to Template Tutorial</a></li>
+    <li><a href="index.html">Welcome to the Validated Patterns Workshop</a></li>
   </ul>
 </nav>
   <div class="edit-this-page"><a href="https://github.com/day0hero/vp-workshop/edit/master/documentation/modules/ROOT/pages/index.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Welcome to Template Tutorial</h1>
+<h1 class="page">Welcome to the Validated Patterns Workshop</h1>
 <div class="sect1 text-center strong">
-<h2>Publish Services to Kubernetes</h2>
+<h2>Application Delivery with GitOps</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A Kubernetes tutorial to show how you can deploy a Java service to a Kubernetes cluster as it was a child game.</p>
+<p>Validated Patterns is that natural progression from reference architectures that add additional
+value.</p>
+</div>
+<div class="paragraph">
+<p>[ .mt-4.left ]
+image::vp-team-logo.png[ValidatedPatterns,150,150,align="center"]</p>
+</div>
+<div class="paragraph">
+<p>Throughout this workshop you will become familiar with many concepts involving GitOps. You will learn (or review)
+git fundamentals, creating helm charts, GitOps principles and most importantly the Validated Patterns framework!</p>
 </div>
 </div>
 </div>
 <div class="sect1 tiles browse">
 <h2>Browse modules</h2>
 <div class="sectionbody">
-<div class="ulist tile">
-<div class="title"><a href="01-setup.html" class="xref page">Get Started</a></div>
+<div class="ulist">
 <ul>
 <li>
-<p><a href="01-setup.html#minikube" class="xref page">Minikube</a></p>
+<p>Requirements</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#setup.adoc" class="xref unresolved">Setup</a></p>
 </li>
 </ul>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="02-deploy.html" class="xref page">Deploying</a></div>
-<ul>
-<li>
-<p><a href="02-deploy.html#package" class="xref page">Package the Application</a></p>
 </li>
 <li>
-<p><a href="02-deploy.html#deploy" class="xref page">Deploy the Application</a></p>
+<p>Day 1</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#day1-am.adoc" class="xref unresolved">Morning</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#day1-git-funds.adoc" class="xref unresolved">Git Fundamentals</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="#day1-pm.adoc" class="xref unresolved">AfterNoon</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#day1-helm-charts.adoc" class="xref unresolved">Helm Charts</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Day 2</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#day2-am.adoc" class="xref unresolved">Morning</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#day2-gitops">GitOps</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="#day2-pm.adoc" class="xref unresolved">Afternoon</a></p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="next"><a href="01-setup.html">1. Setup</a></span>
+  <span class="next"><a href="#setup.adoc">Setup</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
