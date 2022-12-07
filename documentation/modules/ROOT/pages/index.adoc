@@ -1,20 +1,20 @@
-= Welcome to Template Tutorial
+= Welcome to the Validated Patterns Workshop
 :page-layout: home
 :!sectids:
 
 [.text-center.strong]
-== Publish Services to Kubernetes
+== Application Delivery with GitOps
 
-A Kubernetes tutorial to show how you can deploy a Java service to a Kubernetes cluster as it was a child game.
+Validated Patterns is that natural progression from reference architectures that add additional
+value. 
+
+[ .mt-4.left ]
+image::vp-team-logo.png[ValidatedPatterns,150,150,align="center"]
+
+Throughout this workshop you will become familiar with many concepts involving GitOps. You will learn (or review)
+git fundamentals, creating helm charts, GitOps principles and most importantly the Validated Patterns framework!
 
 [.tiles.browse]
 == Browse modules
 
-[.tile]
-.xref:01-setup.adoc[Get Started]
-* xref:01-setup.adoc#minikube[Minikube]
-
-[.tile]
-.xref:02-deploy.adoc[Deploying]
-* xref:02-deploy.adoc#package[Package the Application]
-* xref:02-deploy.adoc#deploy[Deploy the Application]
+include::../nav.adoc[]

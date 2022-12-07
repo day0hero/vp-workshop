@@ -1,7 +1,13 @@
-* xref:01-setup.adoc[1. Setup]
-** xref:01-setup.adoc#prerequisite[Prerequisites]
-** xref:01-setup.adoc#minikube[Setup Minikube]
+* Requirements
+** xref:setup.adoc[Setup]
 
-* xref:02-deploy.adoc[2. Deploy Service]
-** xref:02-deploy.adoc#package[Build Service]
-** xref:02-deploy.adoc#deploy[Deploy Dervice]
+* Day 1
+** xref:day1-am.adoc[Morning]
+*** xref:day1-git-funds.adoc[Git Fundamentals]
+** xref:day1-pm.adoc[AfterNoon]
+*** xref:day1-helm-charts.adoc[Helm Charts]
+
+* Day 2
+** xref:day2-am.adoc[Morning]
+*** xref:day2-gitops[GitOps]
+** xref:day2-pm.adoc[Afternoon]
