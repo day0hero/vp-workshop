@@ -9,7 +9,7 @@ Validated Patterns is that natural progression from reference architectures that
 value. 
 
 [.mt-4.left]
-image::vp-team-logo.png[ValidatedPatterns,150,150,align="center"]
+image::vp-team-logo.png[Patterns,150,150,align="center"]
 
 Throughout this workshop you will become familiar with many concepts involving GitOps. You will learn (or review)
 git fundamentals, creating helm charts, GitOps principles and most importantly the Validated Patterns framework!
