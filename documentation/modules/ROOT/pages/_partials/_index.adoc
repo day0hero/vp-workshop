@@ -1,0 +1,9 @@
+
+Reference Architectures are a `point in time` snapshot of an architecture for applications, infrastructure and other deployments. More often than not, these reference architectures are not updated after they have been published and become deprecated or obsolete. Validated Patterns are the evolution of reference architectures because they are associated with a software lifecycle and continuously tested against the latest version of :rhocp: and clusterExtensions (operators).
+
+:sectnums!:
+== What are _Validated Patterns_?
+
+https://validatedpatterns.io[Validated Patterns Documentation Site]
+
+During this workshop you will learn the fundamental concepts of deploying, creating and extending Validated Patterns to meet your and your customer needs.

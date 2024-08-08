@@ -1,0 +1,7 @@
+::moduledir: ..
+:cli: oc
+:branch: main
+:gh-repo: https://github.com/day0hero/vp-workshop/blob/{branch}
+:rhocp: Red Hat OpenShift Container Platform
+:source-highlighter: highlightjs
+:experimental:
