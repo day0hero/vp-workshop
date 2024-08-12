@@ -3,6 +3,7 @@ runtime:
 
 site:
   title: Validated Patterns WorkShop
+  url: https://day0hero.vp-workshop.github.io/vp-workshop
   start_page: workshop::index.adoc
 
 content:
@@ -20,7 +21,7 @@ asciidoc:
 
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/redhat-developer-demos/rhd-tutorial-ui/releases/download/v0.1.10/ui-bundle.zip
     snapshot: true
 
 output:
