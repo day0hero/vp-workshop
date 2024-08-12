@@ -1,0 +1,8 @@
+= Introduction
+include::main@workshop:ROOT:partial$_attributes.adoc[]
+include::main@workshop:ROOT:partial$_setup.adoc[]		
+
+
+== Topic Objectives
+//include::main@workshop:ROOT:partial$_benefits.adoc[]
+

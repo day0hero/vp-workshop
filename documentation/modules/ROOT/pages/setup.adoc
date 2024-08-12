@@ -1,0 +1,3 @@
+= Setup
+include::main@workshop:ROOT:partial$_attributes.adoc[]
+include::main@workshop:ROOT:partial$_setup.adoc[]

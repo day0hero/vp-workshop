@@ -1,6 +1,6 @@
 name: workshop
 title: Validated Patterns WorkShop
-version: master
+version: main
 nav:
   - modules/ROOT/nav.adoc
 

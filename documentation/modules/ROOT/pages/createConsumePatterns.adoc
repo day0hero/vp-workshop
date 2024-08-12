@@ -1,0 +1,2 @@
+= Creating and Consuming Patterns
+include::main@workshop:ROOT:partial$_attributes.adoc[]

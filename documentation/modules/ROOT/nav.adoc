@@ -1,2 +1,25 @@
-* xref:01-setup.adoc[1. Setup]
-** xref:01-setup.adoc#prerequisite[Prerequisites]
+* xref:setup.adoc[Setup]
+** xref:setup.adoc#prereqs[Prerequisites]
+
+* xref:intro.adoc[Introduction]
+** xref:intro.adoc#benefits[Benefits of Validated Patterns]
+** xref:intro.adoc#batteries[Batteries Included]
+** xref:intro.adoc#whotheyfor[Who are the Patterns for]
+
+* xref:landscape.adoc[Existing Pattern Landscape]
+** xref.landscape.adoc#location[Where to find existing Patterns]
+
+* xref:tiers.adoc[Pattern Tiers]
+** xref.tiers.adoc#tiers[Pattern Tiers]
+
+* xref:createConsumePatterns.adoc[Creating and Consuming Patterns]
+
+* xref:secrets.adoc[Secrets Management]
+
+* xref:selfContained.adoc[Self Contained Patterns]
+
+* xref:gitopsRoughEdges.adoc[GitOps Rough Edges]
+
+* xref:additionalTopics.adoc[Additional Resources]
+
+

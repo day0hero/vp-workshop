@@ -1,0 +1,2 @@
+= GitOps Rough Edges
+include::main@workshop:ROOT:partial$_attributes.adoc[]

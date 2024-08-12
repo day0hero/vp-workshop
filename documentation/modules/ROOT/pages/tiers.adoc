@@ -1,0 +1,2 @@
+= Pattern Tiers
+include::main@workshop:ROOT:partial$_attributes.adoc[]
